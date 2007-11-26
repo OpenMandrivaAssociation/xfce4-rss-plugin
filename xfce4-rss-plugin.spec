@@ -44,5 +44,5 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %doc ChangeLog AUTHORS README
 %{_libdir}/xfce4/panel-plugins/*
-%{py_platsitedir}/xfce4/rssplugin/*
+%{py_puresitedir}/xfce4/rssplugin/*
 %{_datadir}/xfce4/panel-plugins/rss.desktop
