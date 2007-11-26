@@ -11,6 +11,7 @@ BuildRequires:	xfce4-panel-devel >= 4.4.2
 BuildRequires:	libxfcegui4-devel >= 4.4.2
 BuildRequires:	perl(XML::Parser)
 BuildRequires:	intltool python-xfce python-exo pygtk2.0
+BuildRequires:  python-feedparser
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
