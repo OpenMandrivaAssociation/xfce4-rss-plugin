@@ -1,17 +1,23 @@
 Summary: 	A RSS Plugin for the Xfce panel
 Name: 		xfce4-rss-plugin
 Version: 	0.1.0
-Release: 	%mkrel 5
+Release: 	%mkrel 6
 License:	GPLv2+
 Group: 		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-rss-plugin
 Source0: 	http://goodies.xfce.org/releases/xfce4-rss-plugin/%{name}-%{version}.tar.bz2
-Requires:	xfce4-panel >= 4.4.2
 BuildRequires:	xfce4-panel-devel >= 4.4.2
 BuildRequires:	libxfcegui4-devel >= 4.4.2
 BuildRequires:	perl(XML::Parser)
-BuildRequires:	intltool python-xfce python-exo pygtk2.0
-BuildRequires:  python-feedparser
+BuildRequires:	intltool
+BuildRequires:	python-xfce
+BuildRequires:	python-exo
+BuildRequires:	pygtk2.0
+BuildRequires:	python-feedparser
+Requires:	xfce4-panel >= 4.4.2
+Requires:	python-feedparser
+Requires:	python-exo
+Requires:	python-xfce
 BuildRoot: 	%{_tmppath}/%{name}-%{version}-buildroot
 
 %description
