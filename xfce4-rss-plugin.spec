@@ -1,7 +1,7 @@
 Summary: 	A RSS Plugin for the Xfce panel
 Name: 		xfce4-rss-plugin
 Version: 	0.1.0
-Release: 	%mkrel 8
+Release: 	%mkrel 9
 License:	GPLv2+
 Group: 		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-rss-plugin
